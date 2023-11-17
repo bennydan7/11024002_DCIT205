@@ -71,8 +71,8 @@ nav .navbar ul li a {
 /* HOME */
 
 #home {
-  background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),
-    url("/images/back2.png");
+  /* background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), */
+  /* url("/images/back2.png"); */
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -83,6 +83,32 @@ nav .navbar ul li a {
   align-items: center;
   text-align: center;
   padding-top: 40px;
+}
+video {
+  filter: brightness(40%) grayscale(40%);
+  border-radius: 50px;
+}
+.video-container {
+  position: relative;
+
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
 }
 
 #home h2 {
@@ -131,4 +157,32 @@ nav .navbar ul li a {
   color: rgb(256, 126, 23);
   background: #fff;
   transition: 0.4s;
+}
+
+#features {
+  padding: 5vw 8vw 0 8vw;
+  text-align: center;
+}
+
+#features .features-box {
+  background-color: #fff;
+  text-align: start;
+}
+
+#features .features-box i {
+  font-size: 2.3rem;
+  color: rgb(44, 44, 89);
+}
+
+#features .features-box h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(44, 44, 59);
+  padding: 13px 0 7px 0;
+}
+
+#features .features-box p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(70, 70, 87);
 }
