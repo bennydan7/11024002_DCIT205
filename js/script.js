@@ -1,6 +1,6 @@
 'use strict';
 
-// Function to toggle menu in small screen devices
+// Function to toggle menu in small screen devices.
 
 const menuBtn = document.getElementById('menu-btn');
 const closeBtn = document.getElementById('menu-close');
