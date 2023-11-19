@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Global tags */
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(35, 35, 85);
+  /* padding: 20rem; */
+}
+
+span {
+  font-size: 0.9rem;
+  color: #757575;
+}
+
+h6 {
+  font-size: 1.1rem;
+  color: rgb(24, 24, 49);
+}
+
+/* Navigation */
+
+nav {
+  position: sticky;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  z-index: 999;
+}
+
+.cs--logo {
+  width: 17rem;
+  cursor: pointer;
+}
+
+nav .navbar {
+  display: flex;
+}
+
+#menu-btn {
+  display: none;
+}
+
+#menu-close {
+  display: none;
+}
+
+nav .navbar ul {
+  display: flex;
+  justify-self: flex-end;
+  align-items: center;
+}
+
+nav .navbar ul li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+nav .navbar ul li a {
+  text-decoration: none;
+  color: #757575;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.3s ease-in;
+}
+
+.navbar ul li a:hover {
+  color: #7e5e07;
+}
+
+/* About Us page */
+
+.about {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../images/about-banner.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center; /* Vertical alignment */
+  justify-content: center; /* Horizontal alignment */
+  text-align: center;
+  color: #fff;
+}
+
+.about--us {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.h1-head {
+  color: #fff;
+}
+
+.welcome {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.welcome-header {
+  text-align: center;
+  padding: 20px;
+}
+
+.welcome-column {
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
