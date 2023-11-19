@@ -31,7 +31,7 @@ h6 {
 /* Navigation */
 
 nav {
-  position: sticky;
+  position: fixed;
   width: 100%;
   background-color: #fff;
   display: flex;
@@ -89,6 +89,7 @@ nav .navbar ul li a {
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url(../images/about-banner.jpg);
+  filter: brightness(75%) grayscale(25%);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -105,13 +106,22 @@ nav .navbar ul li a {
 
 .h1-head {
   color: #fff;
+  font-size: 4rem;
+  font-weight: 600;
 }
 
-.welcome {
+.auto-input2 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+#welcome {
   width: 80%;
   margin: auto;
   padding-top: 80px;
   padding-bottom: 50px;
+  text-align: center; /* Center the text within the section */
 }
 
 .welcome-header {
@@ -119,7 +129,56 @@ nav .navbar ul li a {
   padding: 20px;
 }
 
-.welcome-column {
-  flex-basis: 48%;
-  padding: 30px 2px;
+.welcome-col {
+  display: inline-block; /* Ensure the text is centered horizontally */
+  text-align: left; /* Align text within the container */
+}
+
+.dcs-txt {
+  padding: 15px 0 25px;
+  text-align: justify;
+}
+
+.gt-text {
+  width: 80%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  text-align: center; /* Center the text within the section */
+}
+
+.section {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  text-align: left;
+}
+
+.organisation-container,
+.organisation-text {
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.organisation-container {
+  padding-right: 20px; /* Adjust the spacing between the image and text */
+}
+
+.organisation-image {
+  width: 80%;
+  height: auto;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.organisation-image:hover {
+  transform: scale(0.9);
+}
+
+.organisation-text {
+  padding-left: 10px; /* Adjust the spacing between the image and text */
 }
