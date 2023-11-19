@@ -46,6 +46,18 @@ nav {
   cursor: pointer;
 }
 
+nav .navbar {
+  display: flex;
+}
+
+#menu-btn {
+  display: none;
+}
+
+#menu-close {
+  display: none;
+}
+
 nav .navbar ul {
   display: flex;
   justify-self: flex-end;
@@ -110,6 +122,12 @@ video {
   padding-top: 50px;
 }
 
+.auto-input1 {
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
 #home h2 {
   color: #fff;
   font-size: 3rem;
@@ -159,6 +177,7 @@ video {
 }
 
 #features {
+  margin-top: 1vw;
   padding: 8vw 8vw 0 8vw;
   text-align: center;
 }
@@ -195,6 +214,7 @@ video {
 
 /* Courses */
 #course {
+  margin-top: -3vw;
   padding: 8vw 8vw 5vw 8vw;
   text-align: center;
 }
@@ -299,8 +319,88 @@ footer .copyright {
   flex-wrap: wrap;
 }
 
+.social-links {
+  margin-top: 10px;
+}
+.social-links a {
+  text-decoration: none;
+  color: #fff;
+}
+.social-links a:hover {
+  color: #7e5e07;
+}
+
+.social-links i {
+  padding: 10px 13px;
+  border: 1px solid rgb(21, 21, 100);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.social-links i:hover {
+  background-color: rgb(21, 21, 100);
+  color: #fff;
+  border: 1px solid rgb(21, 21, 100);
+  cursor: pointer;
+}
+
 @media (max-width: 769px) {
   nav {
     padding: 15px 20px;
+  }
+  .video-container {
+    margin-top: -53vw;
+  }
+
+  .text {
+    margin-top: -31vw;
+  }
+
+  #features {
+    margin-top: -67vw;
+  }
+
+  #menu-btn {
+    display: initial;
+    cursor: pointer;
+  }
+
+  #menu-close {
+    display: initial;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 30px 0 20px 20px;
+  }
+
+  nav .navbar ul {
+    position: absolute;
+    top: 0;
+    right: -220px;
+    width: 220px;
+    height: 100vh;
+    background: rgba(5, 5, 5, 0.45);
+    backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: inherit;
+    transition: 0.6s;
+  }
+
+  nav .navbar ul.active {
+    right: 0;
+  }
+
+  nav .navbar ul li {
+    padding: 20px 0 20px 40px;
+    margin-left: 0;
+  }
+
+  nav .navbar ul li a {
+    color: #fff;
+    font-size: 1.2rem;
   }
 }
