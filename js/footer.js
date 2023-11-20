@@ -1,4 +1,4 @@
-const footerHTML = ` <footer>
+const footerHTML = `  <footer>
       <div class="footer-col">
         <h3>Programs</h3>
         <li>Undergraduate Courses</li>
