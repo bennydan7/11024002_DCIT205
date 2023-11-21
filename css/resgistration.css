@@ -1,0 +1,174 @@
+.registration {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../images/webdevbackground.jpg);
+  filter: brightness(95%) grayscale(3%);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center; /* Vertical alignment */
+  justify-content: center; /* Horizontal alignment */
+  text-align: center;
+  color: #fff;
+}
+
+.reg-sec1 {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.h1-head {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.auto-input5 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+/* course */
+
+.course {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.course h1 {
+  font-size: 36px;
+  font-weight: 750;
+}
+
+.course p {
+  color: #777;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-col {
+  flex-basis: 31%;
+  background: #e9d6d6;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+.course-col h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.course-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0.2);
+}
+
+/* Registration */
+
+.registration1 {
+  margin-top: 15px;
+  margin-bottom: 70px;
+
+  padding: 6vw 8vw 6vw 8vw;
+  background-image: linear-gradient(
+      rgba(99, 112, 168, 0.5),
+      rgba(81, 91, 233, 0.5)
+    ),
+    url("../images/undergrad.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.registration1 .remd {
+  color: #e0d7d7;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.registration1 .p-reg {
+  color: #fff;
+  font-weight: 750px;
+  top: 20px;
+}
+
+.registration1 .remd h1 {
+  color: rgb(41, 40, 40);
+  line-height: -100px;
+  font-weight: 600;
+}
+
+.registration1 .form {
+  background: rgb(21, 21, 100);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.registration1 .form h3 {
+  color: rgb(184, 191, 197);
+  font-weight: 800;
+  top: 20px;
+}
+
+.registration1 .form input {
+  margin: 15px 0;
+  padding: 15px 10px;
+  border: 1px solid rgb(84, 40, 241);
+  outline: none;
+}
+
+.registration1 .form .form2 {
+  margin: 15px 0;
+  padding: 15px 10px;
+  border: 1px solid rgb(84, 40, 241);
+  outline: none;
+}
+
+.registration1 .form .form2::placeholder {
+  color: #413c3c;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.registration1 .form .btn {
+  margin-top: 20px;
+}
+
+.registration1 .form a.orange {
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 13px 35px;
+  background-color: #fff;
+  font-weight: 600px;
+  border-radius: 5px;
+  color: white;
+  background: rgb(256, 126, 23);
+}
+
+.registration1 .form a.orange:hover {
+  color: rgb(256, 126, 23);
+  background: #fff;
+  transition: 0.4s;
+}
