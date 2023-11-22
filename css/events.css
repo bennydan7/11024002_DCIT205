@@ -1,0 +1,96 @@
+.events {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../images/event21s.jpg);
+  filter: brightness(75%) grayscale(15%);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.events--head {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.h1-head {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.auto-input4 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+/* Upcoming Events */
+
+.events-row,
+.events1 {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -15%;
+}
+
+.upcoming-events,
+.past-events-section {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 100px;
+}
+
+.events-col,
+.events-container {
+  flex-basis: 29%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+
+  text-align: justify;
+}
+
+.events-col:hover {
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0.2);
+}
+
+.events-col img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text-col {
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 5%;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+.events-col p {
+  padding: 0;
+}
+
+.events-col h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.past-events {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.past-events-txt {
+  margin-top: 13.5%;
+  margin-bottom: 10%;
+}
