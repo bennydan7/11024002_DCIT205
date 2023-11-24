@@ -57,16 +57,13 @@
   text-align: justify;
 }
 
-.events-col:hover {
-  box-shadow: 0 0 10px 0px rgba(0, 0, 0.2);
-}
-
 .events-col img {
   width: 100%;
   border-radius: 10px;
 }
 
 .text-col {
+  background-color: #cac4c4;
   border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 5%;
