@@ -1,0 +1,56 @@
+/* Research Image */
+
+.research {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../images/gettingtoknowus.jpg);
+  filter: brightness(100%) grayscale(25%);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.research-abt {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.h1-head {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.auto-input6 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.research-list ul {
+  list-style: none;
+  margin-left: 30px;
+  text-align: justify;
+}
+
+.research-list ul li h3 {
+  color: rgb(57, 57, 105);
+  /* color: #555; */
+  line-height: 1.6;
+}
+
+.gt-link {
+  color: rgb(35, 35, 85);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.gt-link:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+}
