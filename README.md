@@ -9,7 +9,7 @@ This repository contains the source code for the Computer Science Department web
 ## Project Structure
 
 - **`css/`**: Contains the styles for the website.
-- **`js/`**: Houses JavaScript files, if any.
+- **`js/`**: Houses JavaScript files..
 - **`index.html`**: Main HTML file for the website and also for the homepage.
 - **`about.html`**: Page dedicated to information about the department.
 - **`events.html`**: Page dedicated to upcoming and past event about the department.
@@ -18,7 +18,8 @@ This repository contains the source code for the Computer Science Department web
 - **`faculty.html`**: Page providing information about the faculty.
 - **`undergrad.html`**:Page for undergraduate-related information.
 - **`postgraduate.html`**: Page for postgraduate-related information.
-- **`phd.html`**: Page for registering Ph.D. courses at the department..
+- **`phd.html`**: Page for registering Ph.D. courses at the department.
+- **`learnmore.html`**: Page for more info about the CS.
 - **`images/`**: Directory containing images for website
 - **`README.md`**: Documentation for the project.
 
@@ -45,32 +46,13 @@ This website stands as a culmination of my interim assessment, representing a dy
 
 4. **Navigate to the Directory Where You Want to Clone the Repository:**
 
-   - Use the `cd` command to navigate to the directory where you want to store the cloned repository. For example:
-     ```bash
-     cd path/to/desired/directory
-     ```
-
 5. **Run the `git clone` Command:**
-
-   - Paste the copied URL after the `git clone` command. The command will look like this:
-     ```bash
-     git clone https://github.com/bennydan7/11024002_DCIT205.git
-     ```
-     For example:
-     ```bash
-     git clone https://github.com/bennydan7/11024002_DCIT205.git
-     ```
 
 6. **Press Enter:**
 
    - Press Enter to execute the command.
 
 7. **Navigate into the Cloned Directory:**
-
-   - Use the `cd` command to navigate into the cloned directory:
-     ```bash
-     cd your-repo
-     ```
 
 8. **Explore Your Project:**
 
@@ -85,7 +67,7 @@ This website stands as a culmination of my interim assessment, representing a dy
 
 That's it! You've successfully forked, cloned, and set up your project on your local machine.
 
-## Creator
+## Creator 🧑‍💻
 
 - **Name:** Bernard Asiedu Owusu-Dankwah
 - **Student ID:** 11024002
