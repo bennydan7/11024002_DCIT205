@@ -84,3 +84,60 @@ This website stands as a culmination of my interim assessment, representing a dy
     - To view your website locally, open the `index.html` file in your browser. You can also use a live server extension if you have one installed in your code editor.
 
 That's it! You've successfully forked, cloned, and set up your project on your local machine.
+
+## Creator
+
+- **Name:** Bernard Asiedu Owusu-Dankwah
+- **Student ID:** 11024002
+- **GitHub:** https://github.com/bennydan7
+
+## Recent Enhancements 🚀
+
+- **Short Course Registration:**
+  Incorporated a user-friendly form for seamless registration in our short courses.
+
+- **Active Navbar Functionality:**
+  Introduced dynamic highlighting to the navigation bar for a more intuitive and interactive user experience.
+
+- **Slider Functionality and More:**
+  Enhanced the website with dynamic slider functionality and various other improvements.
+
+- **Automatic Typing Effect:**
+  Added a captivating automatic typing effect to bring a dynamic and engaging element to the site. Dive in and explore the enhancements! 😎
+
+# Website Preview
+
+## Navigation Bar and Footer
+
+![Nav Bar and Footer](images/screenshots/navbar%20and%20footer.PNG)
+
+## Home Page
+
+![Main Programmes](images/screenshots/courses.PNG)
+![Short Courses](images/screenshots/shortcourses.PNG)
+
+## About Us
+
+![About Us Page](images/screenshots/about.PNG)
+![Get to Know Us](images/screenshots/gettoknowus.PNG)
+
+## Faculty
+
+![Lectures](images/screenshots/faculty.PNG)
+
+## Events Overview
+
+![Events](images/screenshots/events.PNG)
+
+##Short Courses Registration
+
+![Enroll Now](images/screenshots/enrollnow.PNG)
+![Register Here](images/screenshots/shortcourses-reg.PNG)
+
+<!-- ## Undergraduate Programs
+
+![Undergraduate Programs](path/to/undergraduate-screenshot.png)
+
+## PhD Courses
+
+![PhD Courses](path/to/phd-courses-screenshot.png) -->
