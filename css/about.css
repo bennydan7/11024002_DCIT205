@@ -278,7 +278,7 @@ nav .navbar ul li a {
 }
 
 .hero-btn:hover {
-  border: 1px solid #f44336;
-  background: #f44336;
+  border: 1px solid white;
+  background: rgb(256, 126, 23);
   transition: 1s;
 }
