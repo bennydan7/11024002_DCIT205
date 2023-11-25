@@ -129,7 +129,7 @@ That's it! You've successfully forked, cloned, and set up your project on your l
 
 ![Events](images/screenshots/events.PNG)
 
-##Short Courses Registration
+## Short Courses Registration
 
 ![Enroll Now](images/screenshots/enrollnow.PNG)
 ![Register Here](images/screenshots/shortcourses-reg.PNG)
@@ -141,3 +141,28 @@ That's it! You've successfully forked, cloned, and set up your project on your l
 ## PhD Courses
 
 ![PhD Courses](path/to/phd-courses-screenshot.png) -->
+
+# Key Takeaways From This Project
+
+Throughout the development of this project, I've had the opportunity to enhance my skills and knowledge in several areas:
+
+- **Web Development Fundamentals:**
+
+  - Acquired a solid understanding of HTML, CSS, and JavaScript for building engaging and interactive websites.
+
+- **Responsive Design Techniques:**
+
+  - Implemented responsive design principles to ensure the website looks and functions seamlessly across various devices and screen sizes.
+
+- **GitHub Collaboration:**
+
+  - Learned effective collaboration workflows on GitHub, including forking, cloning, creating branches, committing changes, and submitting pull requests.
+
+- **Research and Resource Integration:**
+
+  - Developed skills in researching and integrating various computer science resources, enriching the content and functionality of the website.
+
+- **User-Focused Design:**
+  - Gained insights into creating a user-friendly and intuitive design to enhance the overall user experience.
+
+I'm excited to have applied and expanded my knowledge in these areas throughout the development journey. This project has been a valuable learning experience, and I look forward to continuing to refine my skills in future projects.
