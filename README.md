@@ -72,6 +72,7 @@ That's it! You've successfully forked, cloned, and set up your project on your l
 - **Name:** Bernard Asiedu Owusu-Dankwah
 - **Student ID:** 11024002
 - **GitHub:** https://github.com/bennydan7
+- **Website:** https://bennydan7.github.io/11024002_DCIT205/
 
 ## Recent Enhancements 🚀
 
