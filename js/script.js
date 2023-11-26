@@ -36,3 +36,41 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
   const typed2 = initializeTyped('.auto-input2', 'About Us');
 });
+
+//Implementation for Undergraduate page
+document.addEventListener('DOMContentLoaded', function () {
+  const typed3 = initializeTyped(
+    '.auto-input3',
+    'Insight into Undergraduate Programmes'
+  );
+});
+
+//Implementation for events page
+document.addEventListener('DOMContentLoaded', function () {
+  const typed4 = initializeTyped('.auto-input4', 'Events 📅✨');
+});
+
+//Implementaion for registration page
+document.addEventListener('DOMContentLoaded', function () {
+  const typed5 = initializeTyped('.auto-input5', 'Enroll Now🔁!');
+});
+
+//Implementaion for research page
+document.addEventListener('DOMContentLoaded', function () {
+  const typed6 = initializeTyped('.auto-input6', 'Research');
+});
+
+//Implementation for Faculty Page
+document.addEventListener('DOMContentLoaded', function () {
+  const typed6 = initializeTyped('.auto-input7', 'Faculty');
+});
+
+//Implementation for postgraduate page
+document.addEventListener('DOMContentLoaded', function () {
+  const typed6 = initializeTyped('.auto-input8', 'MSc and MPhil Programmes');
+});
+
+//Implementation for phD page
+document.addEventListener('DOMContentLoaded', function () {
+  const typed6 = initializeTyped('.auto-input9', 'PhD Programmes');
+});
