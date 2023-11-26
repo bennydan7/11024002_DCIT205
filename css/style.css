@@ -81,6 +81,11 @@ nav .navbar ul li a {
   color: #7e5e07;
 }
 
+.navbar ul li a.active,
+.navbar ul li a:hover {
+  color: #ffcc00; /* Change this to your active hover color */
+}
+
 /* HOME */
 
 #home {
@@ -176,6 +181,10 @@ video {
   transition: 0.4s;
 }
 
+.color-f {
+  color: rgb(24, 24, 49);
+}
+
 #features {
   margin-top: 1vw;
   padding: 8vw 8vw 0 8vw;
@@ -191,7 +200,7 @@ video {
 
 #features .features-box {
   background-color: #fff;
-  text-align: start;
+  text-align: center;
 }
 
 #features .features-box i {
@@ -247,6 +256,30 @@ video {
 
 #course .courses .details {
   padding: 15px 15px 0 15px;
+}
+
+.enroll-btn {
+  margin-top: 30px;
+}
+
+.enroll-btn a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 13px 35px;
+  background-color: #fff;
+  font-weight: 600px;
+  border-radius: 20px;
+}
+
+.enroll-btn a {
+  color: #fff;
+  background: rgb(21, 21, 100);
+}
+
+.enroll-btn a:hover {
+  color: #fff;
+  background: rgb(256, 126, 23);
+  transition: 0.3s;
 }
 
 /* footer */
